@@ -300,7 +300,8 @@ public partial class Map : MonoBehaviour
         tiles = new TileType[mWidth, mHeight];
         tilesSprites = new SpriteRenderer[mapRoom.width, mapRoom.height];
 
-        mGrid = new byte[Mathf.NextPowerOfTwo((int)mWidth), Mathf.NextPowerOfTwo((int)mHeight)];
+        //mGrid = new byte[Mathf.NextPowerOfTwo((int)mWidth), Mathf.NextPowerOfTwo((int)mHeight)];
+        mGrid = new byte[(int)mWidth, (int)mHeight];
         InitPathFinder();
 
         Camera.main.orthographicSize = Camera.main.pixelHeight / 2;

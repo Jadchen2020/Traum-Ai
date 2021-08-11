@@ -128,10 +128,11 @@ namespace Algorithms
             mGridXMinus1    = (ushort) (mGridX - 1);
             mGridXLog2      = (ushort) Math.Log(mGridX, 2);
 
+            /*
             if (Math.Log(mGridX, 2) != (int) Math.Log(mGridX, 2) ||
                 Math.Log(mGridY, 2) != (int) Math.Log(mGridY, 2))
                 throw new Exception("Invalid Grid, size in X and Y must be power of 2");
-
+            */
             if (nodes == null || nodes.Length != (mGridX * mGridY))
             {
                 nodes = new List<PathFinderNodeFast>[mGridX * mGridY];
