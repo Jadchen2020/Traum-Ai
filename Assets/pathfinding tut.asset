@@ -12,8 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a48316300305bcb4d835b57c9a92e37d, type: 3}
   m_Name: pathfinding tut
   m_EditorClassIdentifier: 
-  height: 100
-  width: 200
+  height: 99
+  width: 210
   entrances: []
   objectTiles: []
   secondWave: []
